@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#000080"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Mazkur yangi tahrirdagi O‘zbekiston Respublikasi Konstitutsiyasi 2023-yil 30-aprel kuni o‘tkazilgan O‘zbekiston Respublikasi referendumida umumxalq ovoz berish orqali qabul qilingan. \n Malumotlar Lex.uz sayitidan olingan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#D5D5D5"
+        android:padding="15sp"
+        app:cardCornerRadius="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="22sp"
+            android:textColor="#000080"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="MUQADDIMA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+           android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:text="@string/biz_o_zbekistonning_yagona_xalqi_inson_huquq_va_erkinliklariga_milliy_va_umuminsoniy_qadriyatlarga_davlat_suvereniteti_prinsiplariga_sodiqligimizni_tantanali_ravishda_e_lon_qilib_demokratiya_erkinlik_va_tenglik_ijtimoiy_adolat_va_birdamlik_g_oyalariga_sadoqatimizni_namoyon_qilib_inson_uning_hayoti_erkinligi_sha_ni_va_qadr_qimmati_oliy_qadriyat_hisoblanadigan_insonparvar_demokratik_davlatni_ochiq_va_adolatli_jamiyatni_barpo_etish_borasida_hozirgi_va_kelajak_avlodlar_oldidagi_yuksak_mas_uliyatimizni_anglagan_holda_davlatchiligimiz_rivojining_uch_ming_yildan_ziyod_tarixiy_tajribasiga_shuningdek_jahon_sivilizatsiyasiga_beqiyos_hissa_qo_shgan_buyuk_ajdodlarimizning_ilmiy_madaniy_va_ma_naviy_merosiga_tayanib_mamlakatimizning_bebaho_tabiiy_boyliklarini_ko_paytirishga_hamda_hozirgi_va_kelajak_avlodlar_uchun_asrab_avaylashga_hamda_atrof_muhit_musaffoligini_saqlashga_astoydil_ahd_qilib_xalqaro_huquqning_umume_tirof_etilgan_prinsip_va_normalariga_asoslangan_holda_o_zbekistonning_jahon_hamjamiyati_eng_avvalo_qo_shni_davlatlar_bilan_do_stona_munosabatlarini_hamkorlik_o_zaro_qo_llab_quvvatlash_tinchlik_va_totuvlik_asosida_mustahkamlash_hamda_rivojlantirishga_intilib_fuqarolarning_munosib_hayot_kechirishini_millatlararo_va_konfessiyalararo_totuvlikni_ko_p_millatli_jonajon_o_zbekistonimizning_farovonligini_va_gullab_yashnashini_ta_minlashni_maqsad_qilgan_holda_ushbu_konstitutsiyani_qabul_qilamiz_va_e_lon_qilamiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Kengi oynaga utish"
+                android:background="@drawable/shape1"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
